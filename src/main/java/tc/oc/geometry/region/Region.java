@@ -1,4 +1,9 @@
-package tc.oc.geometry;
+package tc.oc.geometry.region;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.Point;
+import tc.oc.geometry.Spatial;
+import tc.oc.geometry.transform.Transform;
 
 /**
  * Represents a set of block coordinates, and supports iteration over them and tests for inclusion.

@@ -1,4 +1,8 @@
-package tc.oc.geometry;
+package tc.oc.geometry.region;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.Point;
+import tc.oc.geometry.transform.Transform;
 
 public class TransformedRegion implements Region {
 

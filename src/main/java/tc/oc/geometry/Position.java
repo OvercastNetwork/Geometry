@@ -1,5 +1,7 @@
 package tc.oc.geometry;
 
+import tc.oc.geometry.transform.Transform;
+
 /**
  * Base interface for spatial positions. This interface is common to positions that
  * are discrete (i.e. integral block coordinates) or continuous (i.e. a singular point

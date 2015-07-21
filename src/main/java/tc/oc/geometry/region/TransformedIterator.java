@@ -1,6 +1,11 @@
-package tc.oc.geometry;
+package tc.oc.geometry.region;
 
 import java.util.Iterator;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.DynamicCell;
+import tc.oc.geometry.Geom;
+import tc.oc.geometry.transform.Transform;
 
 public class TransformedIterator<T extends Cell> implements Iterator<Cell> {
 

@@ -1,4 +1,7 @@
-package tc.oc.geometry;
+package tc.oc.geometry.transform;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.Point;
 
 public class CombinedTransform extends BaseTransform {
 

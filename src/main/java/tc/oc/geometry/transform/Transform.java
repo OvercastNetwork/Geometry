@@ -1,4 +1,8 @@
-package tc.oc.geometry;
+package tc.oc.geometry.transform;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.Point;
+import tc.oc.geometry.Spatial;
 
 public interface Transform {
 

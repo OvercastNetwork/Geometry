@@ -1,4 +1,6 @@
-package tc.oc.geometry;
+package tc.oc.geometry.transform;
+
+import tc.oc.geometry.Spatial;
 
 public abstract class BaseTransform implements Transform {
 

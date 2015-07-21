@@ -1,5 +1,7 @@
 package tc.oc.geometry;
 
+import tc.oc.geometry.transform.Transform;
+
 public interface Point extends Position {
     double getX();
     double getY();

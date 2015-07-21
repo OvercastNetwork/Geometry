@@ -1,7 +1,12 @@
-package tc.oc.geometry;
+package tc.oc.geometry.region;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;
+
+import tc.oc.geometry.Cell;
+import tc.oc.geometry.DynamicCell;
+import tc.oc.geometry.Geom;
+import tc.oc.geometry.Point;
 
 public class CuboidCellIterator implements Iterator<Cell> {
     private final DynamicCell cur;

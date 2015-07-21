@@ -1,4 +1,6 @@
-package tc.oc.geometry;
+package tc.oc.geometry.region;
+
+import tc.oc.geometry.transform.Transform;
 
 public abstract class BaseRegion implements Region {
     @Override

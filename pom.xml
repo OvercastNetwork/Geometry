@@ -8,6 +8,23 @@
     <artifactId>Geometry</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <scm>
+        <connection>scm:git:git@github.com:OvercastNetwork/Plugins</connection>
+        <developerConnection>scm:git:git@github.com:OvercastNetwork/Plugins</developerConnection>
+        <url>https://github.com/OvercastNetwork/Plugins</url>
+    </scm>
+
+    <distributionManagement>
+        <repository>
+            <id>overcast-deployment</id>
+            <url>https://repo.oc.tc/content/repositories/releases</url>
+        </repository>
+        <snapshotRepository>
+            <id>overcast-deployment</id>
+            <url>https://repo.oc.tc/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
     <build>
         <plugins>
             <plugin>
